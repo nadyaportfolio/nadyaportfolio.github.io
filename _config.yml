@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Nadya A."
   avatar : "/assets/images/photoNA.png"
-  bio    : "J'ai géré des flux en supply chain pendant 20 ans. Aujourd'hui j'analyse leurs données."
+  bio    : "Supply Chain Analyst"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -77,7 +77,7 @@ footer:
       url: "https://www.linkedin.com/in/nadya-attigui-60a023433/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://nadyaportfolio.github.io/"
+      url: "https://github.com/nadyaportfolio"
 
 defaults:
   # _posts
