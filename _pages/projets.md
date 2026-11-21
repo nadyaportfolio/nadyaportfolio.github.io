@@ -89,6 +89,6 @@ Visualisation des données et création de tableaux de bord.
 {% include feature_row id="projets_powerbi" %}
 
 ## <i class="fab fa-python"></i> Python
-Analyse exploratoire, statistiques et analyse des saisonnalités.
+Analyse exploratoire, statistiques, analyse des saisonnalités et prévision des ventes.
 
 {% include feature_row id="projets_python" %}
