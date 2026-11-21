@@ -162,3 +162,9 @@
 .projets .page__title {
   display: none;
 }
+/* ===== À propos : texte d'introduction sans cadre ===== */
+.bloc-texte:not(.encadre) {
+  border: none;
+  background: none;
+  padding: 0;
+}
