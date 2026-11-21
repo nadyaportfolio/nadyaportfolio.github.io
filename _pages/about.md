@@ -3,11 +3,14 @@ title: "À propos"
 permalink: /
 layout: single
 author_profile: true
+classes: wide
 ---
 
-Approvisionneuse senior, j'ai passé 20 ans en supply chain dans l'aéronautique, la défense, l'industrie et le médical. En 2026, j'ai suivi la formation Supply Chain Data Analyst d'OpenClassrooms pour analyser les données que je pilotais au quotidien. Je vous propose aujourd'hui de mettre cette double compétence, terrain et data, au service de votre supply chain.
+<div class="bloc-texte">
+  <p>Approvisionneuse senior, j'ai passé 20 ans en supply chain dans l'aéronautique, la défense, l'industrie et le médical. En 2026, j'ai suivi la formation Supply Chain Data Analyst d'OpenClassrooms pour analyser les données que je pilotais au quotidien. Je vous propose aujourd'hui de mettre cette double compétence, terrain et data, au service de votre supply chain.</p>
+</div>
 
-<div class="encadre">
+<div class="bloc-texte encadre">
   <h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Ce que la formation m'a apporté</h3>
   <p>Du recul sur mon métier. Je ne pilote plus seulement les flux : j'analyse leurs données pour comprendre ce qui se passe et proposer des décisions. Le Supply Chain Analyst fait le lien entre l'analyse de données et le terrain. C'est là que je veux être utile.</p>
 </div>
