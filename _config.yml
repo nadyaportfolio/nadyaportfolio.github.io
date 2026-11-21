@@ -58,6 +58,7 @@ author:
   name   : "Nadya A."
   avatar : "/assets/images/photoNA.png"
   bio    : "Supply Chain Data Analyst"
+  location : "Cholet, Maine-et-Loire"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
