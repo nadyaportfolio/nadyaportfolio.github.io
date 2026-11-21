@@ -7,7 +7,6 @@ classes: wide apropos
 ---
 
 <div class="hero">
-  <h1 class="hero-titre">Bonjour, je suis <span>Nadya</span></h1>
   <img class="hero-photo" src="/assets/images/photoNA.png" alt="Photo de profil">
   <p class="hero-role">Supply Chain Data Analyst · Approvisionneuse senior</p>
   <p class="hero-devise">J'ai géré des flux en supply chain pendant 20 ans. Aujourd'hui j'analyse leurs données.</p>
