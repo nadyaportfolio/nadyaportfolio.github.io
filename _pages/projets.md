@@ -3,7 +3,7 @@ title: "Projets"
 permalink: /projets/
 layout: single
 author_profile: false
-classes: wide
+classes: wide projets
 projets_excel:
   - image_path: /assets/images/p2-entrepot.png
     alt: "Aperçu du projet suivi d'activité d'un entrepôt"
