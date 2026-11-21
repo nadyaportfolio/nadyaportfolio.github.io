@@ -101,3 +101,49 @@
   color: #6E1E65;
   text-decoration: underline;
 }
+/* ===== Page À propos : cartes avec icônes ===== */
+.cartes-icones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1em;
+  margin: 1em 0 2em;
+}
+.carte-icone {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 1.1em;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.carte-icone i {
+  font-size: 1.6em;
+  color: #9C2A8F;
+}
+.carte-icone h3 {
+  font-size: 1rem;
+  margin: 0.5em 0 0.3em;
+}
+.carte-icone p {
+  font-size: 0.85rem;
+  color: #6b6b6b;
+  margin: 0;
+}
+.encadre {
+  background: #F3E6F1;
+  border-radius: 10px;
+  padding: 1.1em 1.3em;
+  margin: 0 0 2em;
+}
+.encadre h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+  color: #6E1E65;
+}
+.encadre p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+.note-formation {
+  font-size: 0.8rem;
+  color: #6b6b6b;
+}
