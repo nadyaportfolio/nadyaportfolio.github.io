@@ -5,8 +5,31 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* ===== Cartes projets ===== */
+/* ===== Grille : 3 cartes de même largeur dans chaque section ===== */
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5em;
+  border-bottom: none;
+}
+.feature__wrapper .feature__item {
+  float: none;
+  width: auto;
+  margin: 0;
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .feature__wrapper { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .feature__wrapper { grid-template-columns: 1fr; }
+}
+
+/* ===== Carte ===== */
 .feature__item .archive__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #e6e6e6;
   border-radius: 10px;
   overflow: hidden;
@@ -25,17 +48,28 @@
   border-radius: 0;
 }
 .feature__item .archive__item-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 1em 1.2em 1.2em;
 }
 .feature__item .archive__item-title {
-  font-size: 1em;
+  font-size: 1.1rem;
+  line-height: 1.3;
   margin-top: 0;
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eee;
+  white-space: normal;
+  overflow: visible;
+  hyphens: none;
 }
 .feature__item .archive__item-excerpt {
-  font-size: 0.8em;
+  font-size: 0.9rem;
   color: #6b6b6b;
+}
+.feature__item .archive__item-body p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
 }
 .feature__item .btn--primary {
   background: none;
