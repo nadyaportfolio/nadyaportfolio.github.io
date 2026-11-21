@@ -159,12 +159,14 @@
   text-decoration: underline;
 }
 /* ===== Projets : titre de page masqué ===== */
+.projets #page-title,
 .projets .page__title {
-  display: none;
+  display: none !important;
 }
 /* ===== À propos : texte d'introduction sans cadre ===== */
-.bloc-texte:not(.encadre) {
-  border: none;
-  background: none;
-  padding: 0;
+.apropos .bloc-texte:not(.encadre) {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
