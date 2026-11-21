@@ -115,13 +115,16 @@
   background: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
-.carte-icone i {
-  font-size: 1.6em;
-  color: #9C2A8F;
-}
 .carte-icone h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
   font-size: 1rem;
-  margin: 0.5em 0 0.3em;
+  margin: 0 0 0.4em;
+}
+.carte-icone h3 i {
+  font-size: 1.3em;
+  color: #9C2A8F;
 }
 .carte-icone p {
   font-size: 0.85rem;
@@ -132,7 +135,7 @@
   background: #F3E6F1;
   border-radius: 10px;
   padding: 1.1em 1.3em;
-  margin: 0 0 2em;
+  margin: 1.5em 0 2em;
 }
 .encadre h3 {
   font-size: 1.05rem;
@@ -142,8 +145,4 @@
 .encadre p {
   font-size: 0.95rem;
   margin: 0;
-}
-.note-formation {
-  font-size: 0.8rem;
-  color: #6b6b6b;
 }
