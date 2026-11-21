@@ -1,0 +1,51 @@
+---
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* ===== Cartes projets ===== */
+.feature__item .archive__item {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.feature__item .archive__item-teaser {
+  margin: 0;
+  border-radius: 0;
+}
+.feature__item .archive__item-teaser img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0;
+}
+.feature__item .archive__item-body {
+  padding: 1em 1.2em 1.2em;
+}
+.feature__item .archive__item-title {
+  font-size: 1em;
+  margin-top: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eee;
+}
+.feature__item .archive__item-excerpt {
+  font-size: 0.8em;
+  color: #6b6b6b;
+}
+.feature__item .btn--primary {
+  background: none;
+  color: #9C2A8F;
+  padding: 0;
+  font-weight: 700;
+  box-shadow: none;
+}
+.feature__item .btn--primary:hover {
+  background: none;
+  color: #6E1E65;
+  text-decoration: underline;
+}
