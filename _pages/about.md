@@ -2,21 +2,9 @@
 title: "À propos"
 permalink: /
 layout: single
-author_profile: false
-classes: wide apropos
+author_profile: true
+classes: wide
 ---
-
-<div class="hero">
-  <img class="hero-photo" src="/assets/images/photoNA.png" alt="Photo de profil">
-  <p class="hero-role">Supply Chain Data Analyst · Approvisionneuse senior</p>
-  <p class="hero-devise">J'ai géré des flux en supply chain pendant 20 ans. Aujourd'hui j'analyse leurs données.</p>
-  <span class="hero-trait" aria-hidden="true"></span>
-  <p class="hero-lieu"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Cholet, Maine-et-Loire</p>
-  <div class="hero-liens">
-    <a class="hero-bouton" href="https://www.linkedin.com/in/nadya-attigui-60a023433/"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-    <a class="hero-bouton" href="https://github.com/nadyaportfolio"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
-  </div>
-</div>
 
 <div class="bloc-texte">
   <p>Approvisionneuse senior, j'ai passé 20 ans en supply chain dans l'aéronautique, la défense, l'industrie et le médical. En 2026, j'ai suivi la formation Supply Chain Data Analyst d'OpenClassrooms pour analyser les données que je pilotais au quotidien. Je vous propose aujourd'hui de mettre cette double compétence, terrain et data, au service de votre supply chain.</p>
@@ -42,4 +30,8 @@ classes: wide apropos
     <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> Power BI</h3>
     <p>Visualisation des données et création de tableaux de bord.</p>
   </div>
-  <div
+  <div class="carte-icone">
+    <h3><i class="fab fa-python" aria-hidden="true"></i> Python</h3>
+    <p>Analyse exploratoire, statistiques, saisonnalités et prévision des ventes.</p>
+  </div>
+</div>
