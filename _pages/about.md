@@ -11,4 +11,4 @@ Approvisionneuse senior, j'ai passé 20 ans en supply chain dans l'aéronautique
 - **Excel avancé** : analyse de données, optimisation des flux et simulation des approvisionnements
 - **SQL** : interrogation et exploitation de bases de données
 - **Power BI** : visualisation des données et création de tableaux de bord
-- **Python** : analyse exploratoire, statistiques et analyse des saisonnalités
+- **Python** : analyse exploratoire, statistiques, analyse des saisonnalités et prévision des ventes
